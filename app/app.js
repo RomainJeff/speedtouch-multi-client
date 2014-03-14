@@ -68,7 +68,7 @@ $('#switch').on('click', '#start', function(e) {
     socket.emit('startPartie', user);
 });
 
-document.getElementById('clickArea').addEventListener("touchstart", function(e) {
+document.getElementById('clickArea').addEventListener("touchstart, click", function(e) {
     e.preventDefault();
 
     socket.emit('click', user);
