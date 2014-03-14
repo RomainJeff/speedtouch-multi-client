@@ -145,7 +145,7 @@ socket.on('updateScore', function(result) {
 socket.on('buzzer', function() {
     if (user != false) {
         $('#clickArea').css({
-            background: 'red'
+            background: '#ff6600'
         });
     }
 });
@@ -201,6 +201,14 @@ socket.on('disconnect', function(id){
 
 function changePage(p)
 {
+    if (p == '#home') {
+        $('body').addClass('home');
+        $('header').addClass('hide');
+    } else {
+        $('body').removeClass('home');
+        $('header').removeClass('hide');
+    }
+
     $(page).fadeOut(400, 'swing', function() {
         page = p;
         location.hash = page;

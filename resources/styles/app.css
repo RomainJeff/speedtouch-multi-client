@@ -1,19 +1,30 @@
 body {
-    font-family: "Open Sans";
+    font-family: "Helvetica";
     margin: 0;
     background: #ecf0f1;
-    color: #29ba4e;
+    color: rgba(0,0,0,0.3);
+}
+
+body.home {
+    background: #4AEE7F;
 }
 
 header {
     width: 100%;
     font-size: 30px;
     font-family: "Damion";
-    padding-top: 5px;
-    padding-bottom: 5px;
     text-align: center;
-    background: #29ba4e;
+    background: #4AEE7F;
     color: white;
+}
+
+input {
+    font-family: "Helvetica";
+    margin-top: 20px;
+}
+
+header.hide {
+    display: none;
 }
 
 header span {
@@ -38,6 +49,7 @@ input {
 }
 
 button {
+    outline: 0;
     border: none;
     margin-top: 10px;
     padding-top: 10px;
@@ -116,5 +128,9 @@ section {
 #clickArea h1 {
     margin: 0;
     padding:0;
+    text-align: center;
+}
+
+.s h1 {
     text-align: center;
 }

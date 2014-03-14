@@ -19,21 +19,23 @@
 <body>
 
     <header>
-        <span onclick="window.location.href = '/';">SpeedTouch</span>
+        <span onclick="window.location.href = '/';">
+            <img src="resources/icon.png" width="50">
+        </span>
     </header>
 
     <!-- PAGE CONNEXION -->
     <section id="home">
-        <h1>Connexion</h1>
-        <hr>
+        <br><br>
+        <center>
+            <img src="resources/icon.png" width="100">
+        </center>
 
-        <label>Pseudo</label>
-        <input type="text" id="pseudo"><br>
+        <input type="text" placeholder="Votre pseudo" id="pseudo"><br>
 
-        <label>Email</label>
-        <input type="email" id="email"><br>
+        <input type="email" placeholder="Votre email" id="email"><br>
 
-        <button>Entrer</button>
+        <button>Jouer</button>
     </section>
     <!-- FIN PAGE CONNEXION -->
 
@@ -44,7 +46,7 @@
             <h1>Joueurs</h1>
         </div>
         <div class="list">
-
+            
         </div><br>
     </section>
     <!-- FIN PAGE SWITCH -->
@@ -53,7 +55,7 @@
     <!-- PAGE JOUER -->
     <section id="play">
         <div class="list">
-
+        
         </div>
 
         <div id="clickArea"><h1 id="monCompte"></h1></div>
