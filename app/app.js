@@ -68,11 +68,21 @@ $('#switch').on('click', '#start', function(e) {
     socket.emit('startPartie', user);
 });
 
-document.getElementById('clickArea').addEventListener("touchstart click", function(e) {
-    e.preventDefault();
 
-    socket.emit('click', user);
-});
+if ('ontouchstart' in document.documentElement) {
+    document.getElementById('clickArea').addEventListener("touchstart", function(e) {
+        e.preventDefault();
+
+        socket.emit('click', user);
+    });
+} else {
+    document.getElementById('clickArea').addEventListener("click", function(e) {
+        e.preventDefault();
+
+        socket.emit('click', user);
+    });
+}
+
 
 /***************************************************************************************/
 /***************************************************************************************/
