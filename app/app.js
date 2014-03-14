@@ -4,7 +4,7 @@
  * Tous droits réservés 2013
  */
 
-var socket = io.connect('speedtouch-server.herokuapp.com:1338');
+var socket = io.connect('speedtouch-server.herokuapp.com');
 var user = false;
 
 listDimension();
