@@ -19,7 +19,7 @@
 <body>
 
     <header>
-        <span onclick="window.location.href = '../../index.html';">SpeedTouch</span>
+        <span onclick="window.location.href = '/';">SpeedTouch</span>
     </header>
 
     <!-- PAGE CONNEXION -->

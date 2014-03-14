@@ -96,7 +96,7 @@ socket.on('loginAccepted', function(pseudo) {
 // Un nouveau owner
 socket.on('newOwner', function(owner) {
     if (user == owner) {
-        $('#switch').append('<button id="start">Commencer</button>');
+        $('#switch').append('<button id="start" class="start">Commencer</button>');
     }
 });
 

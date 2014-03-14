@@ -49,6 +49,12 @@ button {
     background: #27ae60;
 }
 
+button.start {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 20px);
+}
+
 label {
     padding-bottom: 5px;
     padding-top: 5px;
