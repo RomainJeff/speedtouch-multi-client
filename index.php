@@ -32,9 +32,7 @@
         </center>
 
         <input type="text" placeholder="Votre pseudo" id="pseudo"><br>
-
         <input type="email" placeholder="Votre email" id="email"><br>
-
         <button>Jouer</button>
     </section>
     <!-- FIN PAGE CONNEXION -->
@@ -46,7 +44,7 @@
             <h1>Joueurs</h1>
         </div>
         <div class="list">
-            
+
         </div><br>
     </section>
     <!-- FIN PAGE SWITCH -->
@@ -55,7 +53,7 @@
     <!-- PAGE JOUER -->
     <section id="play">
         <div class="list">
-        
+
         </div>
 
         <div id="clickArea"><h1 id="monCompte"></h1></div>
