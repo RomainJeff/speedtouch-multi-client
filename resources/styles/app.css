@@ -2,7 +2,7 @@ body {
     font-family: "Open Sans";
     margin: 0;
     background: #ecf0f1;
-    color: #2980b9;
+    color: #29ba4e;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    background: #2980b9;
+    background: #29ba4e;
     color: white;
 }
 
@@ -46,7 +46,7 @@ button {
     font-family: "Open Sans";
     color: white;
     font-size: 15px;
-    background: #27ae60;
+    background: #2889b0;
 }
 
 button.start {
