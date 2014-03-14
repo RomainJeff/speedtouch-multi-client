@@ -67,6 +67,10 @@ section {
     clear: both;
 }
 
+.list {
+    margin-top: 10px;
+}
+
 .list div {
     float: left;
     position: relative;

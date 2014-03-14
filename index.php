@@ -64,7 +64,7 @@
     <!-- PAGE FIN -->
     <section id="end">
         <h1></h1>
-        <button onclick="window.location.href = 'index.html';">Rejouer</button>
+        <button onclick="window.location.href = /;">Rejouer</button>
     </section>
     <!-- PAGE FIN -->
 
@@ -74,7 +74,7 @@
         <p>
             Une erreur est survenue
         </p>
-        <button onclick="window.location.href = 'index.html';">Retour</button>
+        <button onclick="window.location.href = '/';">Retour</button>
     </section>
     <!-- FIN PAGE ERREUR -->
 
